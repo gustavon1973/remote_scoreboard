@@ -1,0 +1,214 @@
+{
+  "titulo": "",
+  "time1Padrao": "NÓS",
+  "time2Padrao": "ELES",
+  "editarNomes": "Editar Nomes",
+  "nomeTime1": "Time 1",
+  "nomeTime2": "Time 2",
+  "cancelar": "Cancelar",
+  "salvar": "Salvar",
+  "botaoDesfazer": "Desfazer",
+  "botaoNovoJogo": "Novo jogo",
+  "saqueRotulo": "Saque: {time}",
+  "@saqueRotulo": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "sacando": "SACANDO",
+  "telaCheia": "Tela cheia",
+  "sairTelaCheia": "Sair da tela cheia",
+  "voz": "Voz",
+  "tema": "Tema",
+  "idioma": "Idioma",
+  "nomes": "Nomes",
+  "games": "GAMES",
+  "set": "S",
+  "sets": "SETS",
+  "tieBreak": "TIE-BREAK",
+  "vitoria": "Vitória: {nome}",
+  "@vitoria": {
+    "placeholders": {
+      "nome": { "type": "String" }
+    }
+  },
+  "vitoriaBanner": "VITÓRIA {nome}",
+  "@vitoriaBanner": {
+    "placeholders": {
+      "nome": { "type": "String" }
+    }
+  },
+  "narracaoSaque": "Saque de {time}.",
+  "@narracaoSaque": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "narracaoFimDeJogo": "Fim de jogo. Vitória de {nome}. {sets}",
+  "@narracaoFimDeJogo": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "sets": { "type": "String" }
+    }
+  },
+  "narracaoSet": "Set para {nome}. {nome1} {set1}, {nome2} {set2}. Sets: {nome1} {setsGanhos1}, {nome2} {setsGanhos2}. {saque}",
+  "@narracaoSet": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "nome1": { "type": "String" },
+      "set1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "set2": { "type": "int" },
+      "setsGanhos1": { "type": "int" },
+      "setsGanhos2": { "type": "int" },
+      "saque": { "type": "String" }
+    }
+  },
+  "narracaoGame": "Game para {nome}. {nome1} {game1}, {nome2} {game2}. {saque}",
+  "@narracaoGame": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "nome1": { "type": "String" },
+      "game1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "game2": { "type": "int" },
+      "saque": { "type": "String" }
+    }
+  },
+  "narracaoTieBreak": "Game para {nome}. Seis a seis. Tie-break. {saque}",
+  "@narracaoTieBreak": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "saque": { "type": "String" }
+    }
+  },
+  "narracaoDesfeito": "Desfeito. {frase}",
+  "@narracaoDesfeito": {
+    "placeholders": {
+      "frase": { "type": "String" }
+    }
+  },
+  "vantagem": "Vantagem {time}",
+  "@vantagem": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "pontoDeOuro": "Ponto de ouro",
+  "iguais": "Iguais",
+  "placarPontos": "{ponto1} a {ponto2}",
+  "@placarPontos": {
+    "placeholders": {
+      "ponto1": { "type": "String" },
+      "ponto2": { "type": "String" }
+    }
+  },
+  "selecionarPlacar": "Selecionar Placar",
+  "esporteBeachTennis": "Beach Tennis / Tênis",
+  "esporteFutebol": "Futebol",
+  "esporteBasquete": "Basquete",
+  "esporteVolei": "Vôlei",
+  "esporteJudo": "Judô",
+  "esporteKarate": "Karatê",
+  "esporteTenisDeMesa": "Tênis de Mesa",
+  "esporteGeral": "Placar Geral",
+  "periodo": "P",
+  "tempo": "Tempo",
+  "gols": "GOLS",
+  "pontos": "PONTOS",
+  "faltas": "FALTAS",
+  "cartaoAmarelo": "Amarelo",
+  "cartaoVermelho": "Vermelho",
+  "primeiroTempo": "1º T",
+  "segundoTempo": "2º Tempo",
+  "intervalo": "Intervalo",
+  "prorrogacao": "Prorrogação",
+  "penaltis": "Pênaltis",
+  "quarto1": "1º Q",
+  "quarto2": "2º Q",
+  "quarto3": "3º Q",
+  "quarto4": "4º Q",
+  "goldenScore": "GOLDEN SCORE",
+  "osaekomi": "Osaekomi",
+  "toketa": "Toketa",
+  "shido": "Shido",
+  "wazaari": "Waza-ari",
+  "ippon": "Ippon",
+  "yuko": "Yuko",
+  "senshu": "Senshu",
+  "iniciar": "Iniciar",
+  "pausar": "Pausar",
+  "zerar": "Zerar",
+  "maisUm": "+1",
+  "maisDois": "+2",
+  "maisTres": "+3",
+  "menosUm": "-1",
+  "narracaoGol": "Gol de {time}! {nome1} {gols1}, {nome2} {gols2}.",
+  "@narracaoGol": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "nome1": { "type": "String" },
+      "gols1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "gols2": { "type": "int" }
+    }
+  },
+  "narracaoCesta": "Cesta de {time}! {nome1} {pontos1}, {nome2} {pontos2}.",
+  "@narracaoCesta": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "nome1": { "type": "String" },
+      "pontos1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "pontos2": { "type": "int" }
+    }
+  },
+  "narracaoPonto": "Ponto de {time}! {nome1} {pontos1}, {nome2} {pontos2}.",
+  "@narracaoPonto": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "nome1": { "type": "String" },
+      "pontos1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "pontos2": { "type": "int" }
+    }
+  },
+  "narracaoVoleiSet": "Set para {nome}! Sets: {nome1} {sets1}, {nome2} {sets2}.",
+  "@narracaoVoleiSet": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "nome1": { "type": "String" },
+      "sets1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "sets2": { "type": "int" }
+    }
+  },
+  "narracaoTenisDeMesaSet": "Set para {nome}! Sets: {nome1} {sets1}, {nome2} {sets2}.",
+  "@narracaoTenisDeMesaSet": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "nome1": { "type": "String" },
+      "sets1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "sets2": { "type": "int" }
+    }
+  },
+  "narracaoJudoIppon": "Ippon para {time}! Vitória de {time}!",
+  "@narracaoJudoIppon": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "narracaoJudoWazaari": "Waza-ari para {time}!",
+  "@narracaoJudoWazaari": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "narracaoJudoShido": "Shido para {time}.",
+  "@narracaoJudoShido": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "titulo": "",
+  "time1Padrao": "US",
+  "time2Padrao": "THEM",
+  "editarNomes": "Edit Names",
+  "nomeTime1": "Team 1",
+  "nomeTime2": "Team 2",
+  "cancelar": "Cancel",
+  "salvar": "Save",
+  "botaoDesfazer": "Undo",
+  "botaoNovoJogo": "New game",
+  "saqueRotulo": "Serve: {time}",
+  "@saqueRotulo": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "sacando": "SERVING",
+  "telaCheia": "Fullscreen",
+  "sairTelaCheia": "Exit fullscreen",
+  "voz": "Voice",
+  "tema": "Theme",
+  "idioma": "Language",
+  "nomes": "Names",
+  "games": "GAMES",
+  "set": "SET",
+  "sets": "SETS",
+  "tieBreak": "TIE-BREAK",
+  "vitoria": "Victory: {nome}",
+  "@vitoria": {
+    "placeholders": {
+      "nome": { "type": "String" }
+    }
+  },
+  "vitoriaBanner": "VICTORY {nome}",
+  "@vitoriaBanner": {
+    "placeholders": {
+      "nome": { "type": "String" }
+    }
+  },
+  "narracaoSaque": "Serve by {time}.",
+  "@narracaoSaque": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "narracaoFimDeJogo": "Game over. Victory for {nome}. {sets}",
+  "@narracaoFimDeJogo": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "sets": { "type": "String" }
+    }
+  },
+  "narracaoSet": "Set for {nome}. {nome1} {set1}, {nome2} {set2}. Sets: {nome1} {setsGanhos1}, {nome2} {setsGanhos2}. {saque}",
+  "@narracaoSet": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "nome1": { "type": "String" },
+      "set1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "set2": { "type": "int" },
+      "setsGanhos1": { "type": "int" },
+      "setsGanhos2": { "type": "int" },
+      "saque": { "type": "String" }
+    }
+  },
+  "narracaoGame": "Game for {nome}. {nome1} {game1}, {nome2} {game2}. {saque}",
+  "@narracaoGame": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "nome1": { "type": "String" },
+      "game1": { "type": "int" },
+      "nome2": { "type": "String" },
+      "game2": { "type": "int" },
+      "saque": { "type": "String" }
+    }
+  },
+  "narracaoTieBreak": "Game for {nome}. Six all. Tie-break. {saque}",
+  "@narracaoTieBreak": {
+    "placeholders": {
+      "nome": { "type": "String" },
+      "saque": { "type": "String" }
+    }
+  },
+  "narracaoDesfeito": "Undone. {frase}",
+  "@narracaoDesfeito": {
+    "placeholders": {
+      "frase": { "type": "String" }
+    }
+  },
+  "vantagem": "Advantage {time}",
+  "@vantagem": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "pontoDeOuro": "Golden point",
+  "iguais": "Deuce",
+  "placarPontos": "{ponto1} - {ponto2}",
+  "@placarPontos": {
+    "placeholders": {
+      "ponto1": { "type": "String" },
+      "ponto2": { "type": "String" }
+    }
+  },
+  "selecionarPlacar": "Select Scoreboard",
+  "esporteBeachTennis": "Beach Tennis / Tennis",
+  "esporteFutebol": "Soccer / Football",
+  "esporteBasquete": "Basketball",
+  "esporteVolei": "Volleyball",
+  "esporteJudo": "Judo",
+  "esporteKarate": "Karate",
+  "esporteTenisDeMesa": "Table Tennis",
+  "esporteGeral": "General Scoreboard",
+  "periodo": "P",
+  "tempo": "Time",
+  "gols": "GOALS",
+  "pontos": "POINTS",
+  "faltas": "FOULS",
+  "cartaoAmarelo": "Yellow",
+  "cartaoVermelho": "Red",
+  "primeiroTempo": "1st",
+  "segundoTempo": "2nd ",
+  "intervalo": "Halftime",
+  "prorrogacao": "Overtime",
+  "penaltis": "Penalties",
+  "quarto1": "1st Q",
+  "quarto2": "2nd Q",
+  "quarto3": "3rd Q",
+  "quarto4": "4th Q",
+  "goldenScore": "GOLDEN SCORE",
+  "osaekomi": "Osaekomi",
+  "toketa": "Toketa",
+  "shido": "Shido",
+  "wazaari": "Waza-ari",
+  "ippon": "Ippon",
+  "yuko": "Yuko",
+  "senshu": "Senshu",
+  "iniciar": "Start",
+  "pausar": "Pause",
+  "zerar": "Reset",
+  "maisUm": "+1",
+  "maisDois": "+2",
+  "maisTres": "+3",
+  "menosUm": "-1",
+  "narracaoGol": "Goal for {time}! {nome1} {gols1}, {nome2} {gols2}.",
+  "narracaoCesta": "Basket for {time}! {nome1} {pontos1}, {nome2} {pontos2}.",
+  "narracaoPonto": "Point for {time}! {nome1} {pontos1}, {nome2} {pontos2}.",
+  "narracaoVoleiSet": "Set for {nome}! Sets: {nome1} {sets1}, {nome2} {sets2}.",
+  "narracaoTenisDeMesaSet": "Set for {nome}! Sets: {nome1} {sets1}, {nome2} {sets2}.",
+  "narracaoJudoIppon": "Ippon for {time}! Victory for {time}!",
+  "narracaoJudoWazaari": "Waza-ari for {time}!",
+  "narracaoJudoShido": "Shido for {time}."
+}
